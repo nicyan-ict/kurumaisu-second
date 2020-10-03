@@ -1,0 +1,69 @@
+#gnav{
+  background-color: rgb(161, 184, 219);
+  }
+
+#gnav ul{
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  }
+  
+#gnav ul li{
+  display: inline;
+  display: table-cell;
+  min-width: 50px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc ; 
+  }
+
+#gnav ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+  }
+
+#gnav ul li a:hover{
+    background-color:#F8E750;
+    border-bottom: 5px solid #F8E750;
+  }
+
+header {
+  background: #325f93;
+  color: #fff;
+  text-align: center;
+  padding-top: 1px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+  border-bottom: solid 5px #325f93;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.pa{
+  font-size: 18px;
+}
+
+.font{
+  font-size: 22px;
+}
+
+@media (min-width: 900px){
+  h2{
+    width: 800px;
+    margin: 100px auto 50px;
+  }
+
+  .pa{
+    width: 800px;
+    margin: 30px auto 50px;
+  }
+}
